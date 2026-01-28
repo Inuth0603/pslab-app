@@ -682,6 +682,30 @@ abstract class AppLocalizations {
   /// **'Wi-Fi'**
   String get wifi;
 
+  /// No description provided for @bluetoothComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth connection coming soon'**
+  String get bluetoothComingSoon;
+
+  /// No description provided for @connectingToWifi.
+  ///
+  /// In en, this message translates to:
+  /// **'Connecting to PSLab WiFi...'**
+  String get connectingToWifi;
+
+  /// No description provided for @wifiConnectionSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Successfully connected to PSLab via WiFi'**
+  String get wifiConnectionSuccess;
+
+  /// No description provided for @wifiConnectionFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to connect. Make sure you are connected to PSLab WiFi network.'**
+  String get wifiConnectionFailed;
+
   /// No description provided for @whatIsPslab.
   ///
   /// In en, this message translates to:
@@ -3255,6 +3279,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Share App'**
   String get shareApp;
+
+  /// No description provided for @sht21Config.
+  ///
+  /// In en, this message translates to:
+  /// **'SHT21 Configurations'**
+  String get sht21Config;
 }
 
 class _AppLocalizationsDelegate

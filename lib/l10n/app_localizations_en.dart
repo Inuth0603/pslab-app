@@ -316,6 +316,20 @@ class AppLocalizationsEn extends AppLocalizations {
   String get wifi => 'Wi-Fi';
 
   @override
+  String get bluetoothComingSoon => 'Bluetooth connection coming soon';
+
+  @override
+  String get connectingToWifi => 'Connecting to PSLab WiFi...';
+
+  @override
+  String get wifiConnectionSuccess =>
+      'Successfully connected to PSLab via WiFi';
+
+  @override
+  String get wifiConnectionFailed =>
+      'Failed to connect. Make sure you are connected to PSLab WiFi network.';
+
+  @override
   String get whatIsPslab => 'What is PSLab Device?';
 
   @override
@@ -1696,4 +1710,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get shareApp => 'Share App';
+
+  @override
+  String get sht21Config => 'SHT21 Configurations';
 }
